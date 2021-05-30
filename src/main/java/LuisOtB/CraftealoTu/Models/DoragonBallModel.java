@@ -13,7 +13,7 @@ import javax.persistence.TemporalType;
 public class DoragonBallModel {
     
     @Entity
-    @Table(name = "Dragon_Ball")
+    @Table (name = "Doragon_Ball")
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
