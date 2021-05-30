@@ -10,10 +10,11 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+@Entity
+@Table (name = "Doragon_Ball")
 public class DoragonBallModel {
     
-    @Entity
-    @Table (name = "Doragon_Ball")
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
